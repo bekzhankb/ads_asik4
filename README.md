@@ -81,8 +81,7 @@ Use cases:
 
 Complexity:
 
-:contentReference[oaicite:0]{index=0}
-
+Time Complexity: O(V + E)
 ---
 
 # DFS
@@ -95,7 +94,7 @@ Use cases:
 
 Complexity:
 
-:contentReference[oaicite:1]{index=1}
+Time Complexity: O(V + E)
 
 ---
 
@@ -115,7 +114,7 @@ Complexity:
 - BFS and DFS showed similar performance.
 - Results matched expected complexity:
 
-:contentReference[oaicite:2]{index=2}
+Time Complexity: O(V + E)
 
 - BFS is useful for shortest path problems.
 - DFS may cause stack overflow on very deep graphs.
