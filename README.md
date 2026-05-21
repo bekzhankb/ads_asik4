@@ -1,4 +1,4 @@
-# Assignment 4 — Graph Traversal System
+# Assignment 4 — Graph Traversal System + Bonus task (at the end)
 
 ## Overview
 
@@ -79,7 +79,7 @@ Use cases:
 - shortest path
 - navigation systems
 
-Complexity:
+
 
 Time Complexity: O(V + E)
 ---
@@ -92,7 +92,6 @@ Use cases:
 - maze solving
 - cycle detection
 
-Complexity:
 
 Time Complexity: O(V + E)
 
@@ -124,7 +123,6 @@ Time Complexity: O(V + E)
 # Reflection
 
 This assignment helped me understand graph traversal algorithms and adjacency list representation.
-
 I learned the difference between BFS and DFS and how graph structure affects traversal order.
 
 ---
@@ -148,6 +146,33 @@ feat(edge): added Edge class
 feat(graph): implemented adjacency list
 feat(traversal): added BFS and DFS
 feat(experiment): added performance testing
-docs(readme): added analysis
+feat(dijkstra): implemented shortest path algorithm
+docs(readme): added analysis and bonus section
 release: v1.0
 ```
+
+---
+
+# Bonus Task — Dijkstra’s Algorithm
+
+For the bonus task, the graph was extended to support weighted edges.
+
+A weight field was added to the Edge class, and the graph structure was updated to store weighted edges in the adjacency list.
+
+Dijkstra’s algorithm was implemented to find the shortest path from a starting vertex to all other vertices.
+
+Example output:
+
+```text
+0 -> 0 = 0
+0 -> 1 = 3
+0 -> 2 = 2
+0 -> 3 = 8
+0 -> 4 = 10
+```
+
+Time Complexity:
+
+O(V²)
+
+This bonus task demonstrated how weighted graphs can be used for shortest path problems such as navigation and route optimization.
