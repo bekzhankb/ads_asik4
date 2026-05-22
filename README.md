@@ -129,7 +129,8 @@ I learned the difference between BFS and DFS and how graph structure affects tra
 
 # Screenshots
 
-![img.png](img.png)
+![img1.png](docs/screenshots/img1.png)
+![img2.png](docs/screenshots/img2.png)
 - graph output
 - BFS traversal
 - DFS traversal
